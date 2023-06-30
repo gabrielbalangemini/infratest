@@ -1,0 +1,7 @@
+---
+fxt1_fix_profile:
+  client: fxt1
+  ports:
+    - 1444
+  sources:
+    - 104.225.244.114

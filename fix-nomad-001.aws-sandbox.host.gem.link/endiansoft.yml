@@ -1,0 +1,11 @@
+---
+endiansoft_fix_profile:
+  client: endiansoft
+  ports:
+    - 1556
+    - 1557
+    - 1558
+  sources:
+    - 158.140.135.103/32
+    - 222.238.177.26/32
+    - 218.144.191.57/32

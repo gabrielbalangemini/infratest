@@ -1,0 +1,11 @@
+---
+ericproud_fix_profile:
+  client: ericproud
+  ports:
+    - 1685
+    - 1686
+    - 1687
+    - 1688
+  sources:
+    - 3.19.176.85/32
+    - 140.174.19.5

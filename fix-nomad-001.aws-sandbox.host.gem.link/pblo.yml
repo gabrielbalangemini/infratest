@@ -1,0 +1,8 @@
+---
+pblo_fix_profile:
+  client: pblo
+  ports:
+    - 1704
+    - 1705
+  sources:
+    - 201.17.20.87/32

@@ -1,0 +1,9 @@
+---
+rockhop_fix_profile:
+  client: rockhop
+  ports:
+    - 1568
+    - 1569
+    - 1570
+  sources:
+    - 3.212.132.241

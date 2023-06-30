@@ -1,0 +1,8 @@
+---
+qntf_fix_profile:
+  client: qntf
+  ports:
+    - 1630
+    - 1631
+  sources:
+    - 34.199.153.73

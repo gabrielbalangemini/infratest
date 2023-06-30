@@ -1,0 +1,12 @@
+---
+# Jira SRE-1231
+pattern_research_fix_profile:
+  client: pattern_research
+  ports:
+    - 1559
+    - 1560
+    - 1561
+    - 1718
+    - 1719
+  sources:
+    - 54.85.242.204/32

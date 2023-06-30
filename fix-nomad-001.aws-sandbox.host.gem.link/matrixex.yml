@@ -1,0 +1,10 @@
+---
+matrixex_fix_profile:
+  client: matrixex
+  ports:
+    - 1456
+  sources:
+    - 99.100.80.51
+    - 38.142.189.98
+    - 18.222.22.96
+    - 204.14.0.12

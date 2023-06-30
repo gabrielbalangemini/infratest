@@ -1,0 +1,8 @@
+---
+snap_fix_profile:
+  client: snap
+  ports:
+    - 1587
+    - 1588
+  sources:
+    - 103.130.71.40/32

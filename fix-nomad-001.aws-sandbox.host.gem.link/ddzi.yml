@@ -1,0 +1,10 @@
+---
+ddzi_fix_profile:
+  client: ddzi
+  ports:
+    - 1583
+    - 1584
+    - 1585
+    - 1586
+  sources:
+    - 74.201.181.70

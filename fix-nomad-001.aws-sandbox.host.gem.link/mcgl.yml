@@ -1,0 +1,8 @@
+---
+mcgl_fix_profile:
+  client: mcgl
+  ports:
+    - 1593
+    - 1594
+  sources:
+    - 54.226.177.129/32

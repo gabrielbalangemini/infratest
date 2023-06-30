@@ -1,0 +1,8 @@
+---
+jst2_fix_profile:
+  client: jst2
+  ports:
+    - 1713
+    - 1714
+  sources:
+    - 84.207.234.68

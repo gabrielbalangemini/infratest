@@ -1,0 +1,9 @@
+---
+betterment_fix_profile:
+  client: betterment
+  ports:
+    - 1744
+    - 1745
+    - 1746
+  sources:
+    - 213.165.163.6

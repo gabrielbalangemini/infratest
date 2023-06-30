@@ -1,0 +1,10 @@
+---
+xbto_fix_profile:
+  client: xbto
+  ports:
+    - 1753
+    - 1754
+    - 1755
+  sources:
+    - 52.15.61.74/32
+    - 74.201.181.70/32

@@ -1,0 +1,10 @@
+---
+sprg_fix_profile:
+  client: spurge
+  ports:
+    - 1590
+    - 1591
+    - 1592
+  sources:
+    - 3.228.96.255/32
+    - 70.91.103.41/32

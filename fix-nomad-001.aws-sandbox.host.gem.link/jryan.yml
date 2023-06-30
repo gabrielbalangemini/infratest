@@ -1,0 +1,11 @@
+---
+jryan_fix_profile:
+  client: jryan
+  ports:
+    - 1501
+    - 1502
+    - 1503
+    - 1504
+  sources:
+    - 104.225.244.114
+    - 74.201.181.70/32

@@ -1,0 +1,8 @@
+---
+mdbu_fix_profile:
+  client: mdbu
+  ports:
+    - 1700
+    - 1701
+  sources:
+    - 148.251.45.72/32

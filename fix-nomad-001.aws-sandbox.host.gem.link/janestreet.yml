@@ -1,0 +1,9 @@
+---
+janestreet_fix_profile:
+  client: janestreet
+  ports:
+    - 1262
+    - 1263
+    - 1264
+  sources:
+    - 38.105.200.246

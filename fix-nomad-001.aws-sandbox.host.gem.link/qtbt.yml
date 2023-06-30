@@ -1,0 +1,8 @@
+---
+qtbt_fix_profile:
+  client: qtbt
+  ports:
+    - 1599
+    - 1600
+  sources:
+    - 204.52.177.1/32

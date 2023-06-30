@@ -1,0 +1,7 @@
+---
+jpms_fix_profile:
+  client: jpms
+  ports:
+    - 1589
+  sources:
+    - 104.244.215.8/30

@@ -1,0 +1,9 @@
+---
+prax_fix_profile:
+  client: prax
+  ports:
+    - 1619
+    - 1620
+  sources:
+    - 208.118.225.216
+    - 192.149.48.74

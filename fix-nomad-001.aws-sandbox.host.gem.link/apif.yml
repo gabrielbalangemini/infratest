@@ -1,0 +1,9 @@
+---
+apif_fix_profile:
+  client: apif
+  ports:
+    - 1658
+    - 1659
+    - 1660
+  sources:
+    - 216.66.50.154

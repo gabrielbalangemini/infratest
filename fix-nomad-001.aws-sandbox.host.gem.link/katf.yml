@@ -1,0 +1,9 @@
+---
+katf_fix_profile:
+  client: katf
+  ports:
+    - 1682
+    - 1683
+    - 1684
+  sources:
+    - 54.225.102.195

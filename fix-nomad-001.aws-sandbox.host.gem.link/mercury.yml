@@ -1,0 +1,9 @@
+---
+mercury_fix_profile:
+  client: mercury
+  ports:
+    - 1565
+    - 1566
+    - 1567
+  sources:
+    - 3.229.76.87

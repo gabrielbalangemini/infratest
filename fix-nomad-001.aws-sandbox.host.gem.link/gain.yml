@@ -1,0 +1,10 @@
+---
+gain_fix_profile:
+  client: gain
+  ports:
+    - 1330
+    - 1331
+    - 1332
+  sources:
+    - 79.141.39.74
+    - 109.239.110.132

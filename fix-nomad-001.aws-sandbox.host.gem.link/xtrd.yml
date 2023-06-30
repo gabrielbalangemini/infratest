@@ -1,0 +1,9 @@
+---
+xtrade_fix_profile:
+  client: xtrade
+  ports:
+    - 1480
+    - 1481
+  sources:
+    - 154.61.34.220
+    - 98.113.137.42

@@ -1,0 +1,8 @@
+---
+toraclear_fix_profile:
+  client: tora
+  ports:
+    - 1531
+  sources:
+    - 5.2.192.47
+    - 35.170.67.68

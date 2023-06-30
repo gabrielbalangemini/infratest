@@ -1,0 +1,8 @@
+---
+etale_fix_profile:
+  client: etale
+  ports:
+    - 1418
+
+  sources:
+    - 198.22.144.0/24

@@ -1,0 +1,10 @@
+---
+eventus_fix_profile:
+  client: eventus
+  ports:
+    - 1544
+    - 1545
+    - 1546
+  sources:
+    - 3.89.234.14/32
+    - 155.138.242.233/32

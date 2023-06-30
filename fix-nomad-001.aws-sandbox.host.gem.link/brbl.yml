@@ -1,0 +1,8 @@
+---
+brbl_fix_profile:
+  client: brbl
+  ports:
+    - 1617
+    - 1618
+  sources:
+    - 74.201.201.210

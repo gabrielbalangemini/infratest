@@ -1,0 +1,8 @@
+---
+bbox_fix_profile:
+  client: bbox
+  ports:
+    - 1595
+    - 1596
+  sources:
+    - 173.160.88.241/32

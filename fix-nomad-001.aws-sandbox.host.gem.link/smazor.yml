@@ -1,0 +1,8 @@
+---
+smazor_fix_profile:
+  client: smazor
+  ports:
+    - 1521
+    - 1522
+  sources:
+    - 13.59.155.247/32

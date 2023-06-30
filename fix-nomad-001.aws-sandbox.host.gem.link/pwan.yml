@@ -1,0 +1,8 @@
+---
+pwan_fix_profile:
+  client: pwan
+  ports:
+    - 1609
+    - 1610
+  sources:
+    - 172.249.54.146

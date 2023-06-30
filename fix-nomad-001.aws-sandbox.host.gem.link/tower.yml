@@ -1,0 +1,12 @@
+---
+tower_fix_profile:
+  client: tower
+  ports:
+    - 1268
+    - 1269
+    - 1270
+    - 1335
+    - 1336
+    - 1337
+  sources:
+    - 199.7.185.10

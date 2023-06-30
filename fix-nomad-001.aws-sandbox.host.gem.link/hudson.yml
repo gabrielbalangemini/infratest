@@ -1,0 +1,10 @@
+---
+hudson_fix_profile:
+  client: hudson
+  ports:
+    - 1253
+    - 1254
+    - 1255
+  sources:
+    - 38.105.238.0/24
+    - 209.249.190.0/24

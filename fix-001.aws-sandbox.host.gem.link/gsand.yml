@@ -1,0 +1,10 @@
+---
+gsandoms_fix_profile:
+  client: gsandoms
+  ports:
+    - 1421
+    - 1422
+  sources:
+    - 74.201.181.70
+    - 104.225.244.114
+    - 64.124.229.72/31

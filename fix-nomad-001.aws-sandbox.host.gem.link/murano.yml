@@ -1,0 +1,10 @@
+---
+murano_fix_profile:
+  client: murano
+  ports:
+    - 1667
+    - 1668
+    - 1669
+  sources:
+    - 201.17.20.87/32
+    - 138.59.98.170/32

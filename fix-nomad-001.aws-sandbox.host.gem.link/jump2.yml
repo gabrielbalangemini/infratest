@@ -1,0 +1,9 @@
+---
+jump2_fix_profile:
+  client: jump2
+  ports:
+    - 1553
+    - 1554
+    - 1555
+  sources:
+    - 208.78.215.133

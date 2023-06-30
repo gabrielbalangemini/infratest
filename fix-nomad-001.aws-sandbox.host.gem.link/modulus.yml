@@ -1,0 +1,9 @@
+---
+modulus_fix_profile:
+  client: modulus
+  ports:
+    - 1577
+    - 1578
+    - 1579
+  sources:
+    - 122.160.77.215

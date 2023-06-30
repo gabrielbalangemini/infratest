@@ -1,0 +1,9 @@
+---
+bsky_fix_profile:
+  client: bsky
+  ports:
+    - 1627
+    - 1628
+    - 1629
+  sources:
+    - 74.64.197.77

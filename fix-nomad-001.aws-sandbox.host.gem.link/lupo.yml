@@ -1,0 +1,8 @@
+---
+lupo_fix_profile:
+  client: lupo
+  ports:
+    - 1603
+    - 1604
+  sources:
+    - 89.64.48.113/32

@@ -1,0 +1,10 @@
+---
+sig_fix_profile:
+  client: sig
+  ports:
+    - 1274
+    - 1275
+    - 1276
+    - 1277
+  sources:
+    - 141.162.101.0/24

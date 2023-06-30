@@ -1,0 +1,10 @@
+---
+nick_fix_profile:
+  client: nick
+  ports:
+    - 1674
+    - 1675
+    - 1676
+    - 1677
+  sources:
+    - 74.201.181.70/32

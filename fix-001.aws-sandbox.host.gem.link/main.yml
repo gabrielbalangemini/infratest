@@ -1,0 +1,307 @@
+---
+fix_components:
+  - type: dropcopy
+    accountnum: 2923
+    ip: '{{ private_ip_address }}'
+    port: 1264
+    sources: '{{ janestreet_fix_profile.sources }}'
+    client_comp_id: JANEDRPUAT
+    server_comp_id: GEMINIDRPUAT
+  - type: order
+    accountnum: 2923
+    ip: '{{ private_ip_address }}'
+    port: 1263
+    sources: '{{ janestreet_fix_profile.sources }}'
+    client_comp_id: JANEORDUAT
+    server_comp_id: GEMINIORDUAT
+
+
+  - type: order
+    accountnum: 4400
+    ip: '{{ private_ip_address }}'
+    port: 1244
+    sources: '{{ oanda_fix_profile.sources }}'
+    client_comp_id: ONDAORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: thirdpartydropcopy
+    accountnum: 4479
+    ip: '{{ private_ip_address }}'
+    port: 1299
+    sources: '{{ tora_fix_profile.sources }}'
+    client_comp_id: TORADRPUAT
+    server_comp_id: GEMINIDRPUAT
+  - type: thirdpartyorder
+    accountnum: 4479
+    ip: '{{ private_ip_address }}'
+    port: 1298
+    sources: '{{ tora_fix_profile.sources }}'
+    client_comp_id: TORAORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: dropcopy
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1332
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAN2DRPUAT
+    server_comp_id: GEMINIDRPUAT
+  - type: order
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1331
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAN2ORDUAT
+    server_comp_id: GEMINIORDUAT
+
+
+  - type: order
+    accountnum: 5763
+    ip: '{{ private_ip_address }}'
+    port: 1418
+    sources: '{{ etale_fix_profile.sources }}'
+    client_comp_id: ETALORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: thirdpartyorder
+    accountnum: 5819
+    ip: '{{ private_ip_address }}'
+    port: 1421
+    sources: '{{ gsandoms_fix_profile.sources }}'
+    client_comp_id: GSAND3OEUAT
+    server_comp_id: GEMINIORDUAT
+    suppress_mm_ioi: 'true'
+    fix_oe_deliver_to_comp_id_enabled: 'true'
+  - type: thirdpartydropcopy
+    accountnum: 5819
+    ip: '{{ private_ip_address }}'
+    port: 1422
+    sources: '{{ gsandoms_fix_profile.sources }}'
+    client_comp_id: GSANDDR3UAT
+    server_comp_id: GEMINIDRPUAT
+
+  - type: thirdpartyorder
+    accountnum: 6033
+    ip: '{{ private_ip_address }}'
+    port: 1434
+    sources: '{{ tora_fix_profile.sources }}'
+    client_comp_id: TORR3OEUAT
+    server_comp_id: GEMINIORDUAT
+    fix_oe_deliver_to_comp_id_enabled: 'true'
+
+  - type: order
+    accountnum: 6151
+    ip: '{{ private_ip_address }}'
+    port: 1444
+    sources: '{{ fxt1_fix_profile.sources }}'
+    client_comp_id: FXT1ORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: order
+    accountnum: 5365
+    ip: '{{ private_ip_address }}'
+    port: 1450
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: JAKEORDUAT
+    server_comp_id: GEMINIORDUAT
+  - type: dropcopy
+    accountnum: 5365
+    ip: '{{ private_ip_address }}'
+    port: 1452
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: JAKEDRPUAT
+    server_comp_id: GEMINIDRPUAT
+
+  - type: thirdpartyorder
+    accountnum: 6336
+    ip: '{{ private_ip_address }}'
+    port: 1471
+    sources: '{{ tradestation_fix_profile.sources }}'
+    client_comp_id: TSTN3OEUAT
+    server_comp_id: GEMINI3OEUAT
+
+  - type: dropcopy
+    accountnum: 8043
+    ip: '{{ private_ip_address }}'
+    port: 1520
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: CDAVDRPUAT
+    server_comp_id: GEMINIDRPUAT
+  - type: order
+    accountnum: 8043
+    ip: '{{ private_ip_address }}'
+    port: 1518
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: CDAVORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: order
+    accountnum: 40593
+    ip: '{{ private_ip_address }}'
+    port: 1597
+    sources: '{{ jstc_fix_profile.sources }}'
+    client_comp_id: JSTCORDUAT
+    server_comp_id: GEMINIORDUAT
+
+
+  - type: order
+    accountnum: 40794
+    ip: '{{ private_ip_address }}'
+    port: 1599
+    sources: '{{ qtbt_fix_profile.sources }}'
+    client_comp_id: QTBTORDUAT
+    server_comp_id: GEMINIORDUAT
+
+
+  - type: order
+    accountnum: 44735
+    ip: '{{ private_ip_address }}'
+    port: 1601
+    sources: '{{ tchy_fix_profile.sources }}'
+    client_comp_id: TCHYORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: order
+    accountnum: 48837
+    ip: '{{ private_ip_address }}'
+    port: 1605
+    sources: '{{ efer_fix_profile.sources }}'
+    client_comp_id: EFERORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: dropcopy
+    accountnum: 48837
+    ip: '{{ private_ip_address }}'
+    port: 1607
+    sources: '{{ efer_fix_profile.sources }}'
+    client_comp_id: EFERDRPUAT
+    server_comp_id: GEMINIDRPUAT
+  - type: thirdpartyorder
+    accountnum: 48837
+    ip: '{{ private_ip_address }}'
+    port: 1608
+    sources: '{{ efer_fix_profile.sources }}'
+    client_comp_id: EFER3OEUAT
+    server_comp_id: GEMINI3OEUAT
+    suppress_mm_ioi: 'true'
+    fix_oe_deliver_to_comp_id_enabled: 'true'
+
+  - type: order
+    accountnum: 44398
+    ip: '{{ private_ip_address }}'
+    port: 1603
+    sources: '{{ lupo_fix_profile.sources }}'
+    client_comp_id: LUPOORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: order
+    accountnum: 60953
+    ip: '{{ private_ip_address }}'
+    port: 1619
+    sources: '{{ prax_fix_profile.sources }}'
+    client_comp_id: PRAXORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: order
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1621
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLEORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: dropcopy
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1623
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLEDRPUAT
+    server_comp_id: GEMINIDRPUAT
+  - type: thirdpartyorder
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1624
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLE3OEUAT
+    server_comp_id: GEMINI3OEUAT
+    suppress_mm_ioi: 'true'
+    fix_oe_deliver_to_comp_id_enabled: 'true'
+
+  - type: order
+    accountnum: 67369
+    ip: '{{ private_ip_address }}'
+    port: 1636
+    sources: '{{ roger_fix_profile.sources }}'
+    client_comp_id: ROGEORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: dropcopy
+    accountnum: 67369
+    ip: '{{ private_ip_address }}'
+    port: 1638
+    sources: '{{ roger_fix_profile.sources }}'
+    client_comp_id: ROGEDRPUAT
+    server_comp_id: GEMINIDRPUAT
+  - type: thirdpartyorder
+    accountnum: 67369
+    ip: '{{ private_ip_address }}'
+    port: 1639
+    sources: '{{ roger_fix_profile.sources }}'
+    client_comp_id: ROGE3OEUAT
+    server_comp_id: GEMINI3OEUAT
+    suppress_mm_ioi: 'true'
+    fix_oe_deliver_to_comp_id_enabled: 'true'
+
+  - type: order
+    accountnum: 75819
+    ip: '{{ private_ip_address }}'
+    port: 1640
+    sources: '{{ prognos_fix_profile.sources }}'
+    client_comp_id: PGNSORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: dropcopy
+    accountnum: 75819
+    ip: '{{ private_ip_address }}'
+    port: 1642
+    sources: '{{ prognos_fix_profile.sources }}'
+    client_comp_id: PGNSDRPUAT
+    server_comp_id: GEMINIDRPUAT
+
+  - type: order
+    accountnum: 62176
+    ip: '{{ private_ip_address }}'
+    port: 1643
+    sources: '{{ mbit_fix_profile.sources }}'
+    client_comp_id: MBITORDUAT
+    server_comp_id: GEMINIORDUAT
+
+  - type: dropcopy
+    accountnum: 62176
+    ip: '{{ private_ip_address }}'
+    port: 1645
+    sources: '{{ mbit_fix_profile.sources }}'
+    client_comp_id: MBITDRPUAT
+    server_comp_id: GEMINIDRPUAT
+
+  - type: order
+    accountnum: 663709
+    ip: '{{ private_ip_address }}'
+    port: 1685
+    sources: '{{ ericproud_fix_profile.sources }}'
+    client_comp_id: ERICORDUAT001
+    server_comp_id: GEMINIORDUAT
+
+  - type: order
+    accountnum: 663709
+    ip: '{{ private_ip_address }}'
+    port: 1686
+    sources: '{{ ericproud_fix_profile.sources }}'
+    client_comp_id: ERICORDUAT002
+    server_comp_id: GEMINIORDUAT
+
+fix_marketdata_ip_whitelist: ""
+fix_dropcopy_ip_whitelist: ""
+fix_order_ip_whitelist: ""
+
+trading_interface: "eth0"

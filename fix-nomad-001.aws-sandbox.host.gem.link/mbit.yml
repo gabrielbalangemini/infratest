@@ -1,0 +1,9 @@
+---
+mbit_fix_profile:
+  client: mbit
+  ports:
+    - 1643
+    - 1644
+    - 1645
+  sources:
+    - 71.43.26.110/32

@@ -1,0 +1,11 @@
+---
+efer_fix_profile:
+  client: efer
+  ports:
+    - 1605
+    - 1606
+    - 1607
+    - 1608
+
+  sources:
+    - 74.201.181.70

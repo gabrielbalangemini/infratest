@@ -1,0 +1,4 @@
+---
+iptables_rules_host: |
+  -A INPUT -s 10.129.0.0/22 -p udp -m multiport --dports 1200:2000 -j ACCEPT
+  -A INPUT -s 10.129.0.0/22 -p tcp -m multiport --dports 1200:2000 -j ACCEPT

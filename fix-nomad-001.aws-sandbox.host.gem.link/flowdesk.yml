@@ -1,0 +1,10 @@
+---
+flowdesk_fix_profile:
+  client: flowdesk
+  ports:
+    - 1741
+    - 1742
+    - 1743
+  sources:
+    - 88.122.198.89/32
+    - 84.14.210.92/32

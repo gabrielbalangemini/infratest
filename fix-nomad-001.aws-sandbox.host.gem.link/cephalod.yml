@@ -1,0 +1,9 @@
+---
+cephalod_fix_profile:
+  client: cephalod
+  ports:
+    - 1574
+    - 1575
+    - 1576
+  sources:
+    - 144.217.255.55

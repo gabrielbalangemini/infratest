@@ -1,0 +1,11 @@
+---
+dcsandbox_fix_profile:
+  client: dcsandbox
+  ports:
+    - 1412
+    - 1413
+    - 1414
+  sources:
+    - 104.225.244.114
+    - 64.124.229.72/31
+    - 74.201.181.70

@@ -1,0 +1,9 @@
+---
+roqtrading_fix_profile:
+  client: roqtrading
+  ports:
+    - 1528
+    - 1529
+    - 1530
+  sources:
+    - 185.27.5.164

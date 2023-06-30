@@ -1,0 +1,10 @@
+---
+roger_fix_profile:
+  client: roger
+  ports:
+    - 1636
+    - 1637
+    - 1638
+    - 1639
+  sources:
+    - 74.201.181.70

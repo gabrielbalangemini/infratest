@@ -1,0 +1,8 @@
+---
+jstc_fix_profile:
+  client: jstc
+  ports:
+    - 1597
+    - 1598
+  sources:
+    - 35.73.82.170/32

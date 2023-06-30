@@ -1,0 +1,8 @@
+---
+oanda_fix_profile:
+  client: oanda
+  ports:
+    - 1243
+    - 1244
+  sources:
+    - 192.247.0.0/24

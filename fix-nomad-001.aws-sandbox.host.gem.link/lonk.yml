@@ -1,0 +1,10 @@
+---
+lonk_fix_profile:
+  client: lonk
+  ports:
+    - 1474
+    - 1475
+    - 1476
+  sources:
+    - 18.210.153.116/32
+    - 54.83.203.15/32

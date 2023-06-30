@@ -1,0 +1,3058 @@
+---
+fix_components:
+  - type: marketdata
+    accountnum: 1446403
+    ip: '{{ private_ip_address }}'
+    port: 1716
+    sources: '{{ ashish_fix_profile.sources }}'
+    client_comp_id: ASHIMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 8043
+    ip: '{{ private_ip_address }}'
+    port: 1530
+    sources: '{{ nomad_test_profile.sources }}'
+    client_comp_id: NOMADTESTMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 2923
+    ip: '{{ private_ip_address }}'
+    port: 1262
+    sources: '{{ janestreet_fix_profile.sources }}'
+    client_comp_id: JANEMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 4400
+    ip: '{{ private_ip_address }}'
+    port: 1243
+    sources: '{{ oanda_fix_profile.sources }}'
+    client_comp_id: ONDAMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1330
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAN2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5360
+    ip: '{{ private_ip_address }}'
+    port: 1401
+    sources: '{{ integral_fix_profile.sources }}'
+    client_comp_id: INTLMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5365
+    ip: '{{ private_ip_address }}'
+    port: 1451
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: JAKEMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 8043
+    ip: '{{ private_ip_address }}'
+    port: 1519
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: CDAVMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 40593
+    ip: '{{ private_ip_address }}'
+    port: 1598
+    sources: '{{ jstc_fix_profile.sources }}'
+    client_comp_id: JSTCMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 40794
+    ip: '{{ private_ip_address }}'
+    port: 1600
+    sources: '{{ qtbt_fix_profile.sources }}'
+    client_comp_id: QTBTMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 44735
+    ip: '{{ private_ip_address }}'
+    port: 1602
+    sources: '{{ tchy_fix_profile.sources }}'
+    client_comp_id: TCHYMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 48837
+    ip: '{{ private_ip_address }}'
+    port: 1606
+    sources: '{{ efer_fix_profile.sources }}'
+    client_comp_id: EFERMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 44398
+    ip: '{{ private_ip_address }}'
+    port: 1604
+    sources: '{{ lupo_fix_profile.sources }}'
+    client_comp_id: LUPOMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1622
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLEMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 67369
+    ip: '{{ private_ip_address }}'
+    port: 1637
+    sources: '{{ abz_fix_profile.sources }}'
+    client_comp_id: ABZMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 75819
+    ip: '{{ private_ip_address }}'
+    port: 1641
+    sources: '{{ prognos_fix_profile.sources }}'
+    client_comp_id: PGNSMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 62176
+    ip: '{{ private_ip_address }}'
+    port: 1644
+    sources: '{{ mbit_fix_profile.sources }}'
+    client_comp_id: MBITMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 59799
+    ip: '{{ private_ip_address }}'
+    port: 1650
+    sources: '{{ sanjay_fix_profile.sources }}'
+    client_comp_id: SANJORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 59799
+    ip: '{{ private_ip_address }}'
+    port: 1651
+    sources: '{{ sanjay_fix_profile.sources }}'
+    client_comp_id: SANJMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 452
+    ip: '{{ private_ip_address }}'
+    port: 1240
+    sources: '{{ jump_fix_profile.sources }}'
+    client_comp_id: JUMPMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 25
+    ip: '{{ private_ip_address }}'
+    port: 1274
+    sources: '{{ sig_fix_profile.sources }}'
+    client_comp_id: SIG1MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6072
+    ip: '{{ private_ip_address }}'
+    port: 1435
+    sources: '{{ broadway_fix_profile.sources }}'
+    client_comp_id: BWAYMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6073
+    ip: '{{ private_ip_address }}'
+    port: 1438
+    sources: '{{ broadway_fix_profile.sources }}'
+    client_comp_id: BWAY1MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6501
+    ip: '{{ private_ip_address }}'
+    port: 1487
+    sources: '{{ subspace_fix_profile.sources }}'
+    client_comp_id: SUBCMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 7378
+    ip: '{{ private_ip_address }}'
+    port: 1506
+    sources: '{{ frontier_fix_profile.sources }}'
+    client_comp_id: FRNTMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5612
+    ip: '{{ private_ip_address }}'
+    port: 1522
+    sources: '{{ smazor_fix_profile.sources }}'
+    client_comp_id: SMAZMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 16012
+    ip: '{{ private_ip_address }}'
+    port: 1554
+    sources: '{{ jump2_fix_profile.sources }}'
+    client_comp_id: JMP2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 27623
+    ip: '{{ private_ip_address }}'
+    port: 1584
+    sources: '{{ ddzi_fix_profile.sources }}'
+    client_comp_id: DDZIMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 32353
+    ip: '{{ private_ip_address }}'
+    port: 1588
+    sources: '{{ snap_fix_profile.sources }}'
+    client_comp_id: SNAPMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 31170
+    ip: '{{ private_ip_address }}'
+    port: 1589
+    sources: '{{ jpms_fix_profile.sources }}'
+    client_comp_id: JPMSMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 32363
+    ip: '{{ private_ip_address }}'
+    port: 1591
+    sources: '{{ sprg_fix_profile.sources }}'
+    client_comp_id: SPRGMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 32830
+    ip: '{{ private_ip_address }}'
+    port: 1594
+    sources: '{{ mcgl_fix_profile.sources }}'
+    client_comp_id: MCGLMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 33997
+    ip: '{{ private_ip_address }}'
+    port: 1596
+    sources: '{{ bbox_fix_profile.sources }}'
+    client_comp_id: BBOXMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 68351
+    ip: '{{ private_ip_address }}'
+    port: 1631
+    sources: '{{ qntf_fix_profile.sources }}'
+    client_comp_id: QNTFMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 69189
+    ip: '{{ private_ip_address }}'
+    port: 1633
+    sources: '{{ tsim_fix_profile.sources }}'
+    client_comp_id: TSIMMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 648689
+    ip: '{{ private_ip_address }}'
+    port: 1665
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 651819
+    ip: '{{ private_ip_address }}'
+    port: 1668
+    sources: '{{ murano_fix_profile.sources }}'
+    client_comp_id: MRNOMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 648689
+    ip: '{{ private_ip_address }}'
+    port: 1671
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 60953
+    ip: '{{ private_ip_address }}'
+    port: 1620
+    sources: '{{ prax_fix_profile.sources }}'
+    client_comp_id: PRAXMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 2885
+    ip: '{{ private_ip_address }}'
+    port: 1268
+    sources: '{{ tower_fix_profile.sources }}'
+    client_comp_id: TWRCMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 4973
+    ip: '{{ private_ip_address }}'
+    port: 1335
+    sources: '{{ tower_fix_profile.sources }}'
+    client_comp_id: TWR2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5795
+    ip: '{{ private_ip_address }}'
+    port: 1429
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6629
+    ip: '{{ private_ip_address }}'
+    port: 1469
+    sources: '{{ rbc_fix_profile.sources }}'
+    client_comp_id: RBCCMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6494
+    ip: '{{ private_ip_address }}'
+    port: 1481
+    sources: '{{ xtrade_fix_profile.sources }}'
+    client_comp_id: XTRDMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5557
+    ip: '{{ private_ip_address }}'
+    port: 1407
+    sources: '{{ drwtrading_fix_profile.sources }}'
+    client_comp_id: CBLDMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5557
+    ip: '{{ private_ip_address }}'
+    port: 1410
+    sources: '{{ drwtrading_fix_profile.sources }}'
+    client_comp_id: CBL2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6629
+    ip: '{{ private_ip_address }}'
+    port: 1513
+    sources: '{{ rbc_fix_profile.sources }}'
+    client_comp_id: RBC2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6629
+    ip: '{{ private_ip_address }}'
+    port: 1514
+    sources: '{{ rbc_fix_profile.sources }}'
+    client_comp_id: RBC3MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 10004
+    ip: '{{ private_ip_address }}'
+    port: 1529
+    sources: '{{ roqtrading_fix_profile.sources }}'
+    client_comp_id: ROQTMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 12504
+    ip: '{{ private_ip_address }}'
+    port: 1536
+    sources: '{{ holl_fix_profile.sources }}'
+    client_comp_id: HOLLMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 14261
+    ip: '{{ private_ip_address }}'
+    port: 1539
+    sources: '{{ algotrader_fix_profile.sources }}'
+    client_comp_id: ALGOMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 2200
+    ip: '{{ private_ip_address }}'
+    port: 1254
+    sources: '{{ hudson_fix_profile.sources }}'
+    client_comp_id: HUDTRMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 914
+    ip: '{{ private_ip_address }}'
+    port: 1557
+    sources: '{{ endiansoft_fix_profile.sources }}'
+    client_comp_id: ENSFMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 19715
+    ip: '{{ private_ip_address }}'
+    port: 1559
+    sources: '{{ pattern_research_fix_profile.sources }}'
+    client_comp_id: PTRNORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 19715
+    ip: '{{ private_ip_address }}'
+    port: 1560
+    sources: '{{ pattern_research_fix_profile.sources }}'
+    client_comp_id: PTRNMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 20543
+    ip: '{{ private_ip_address }}'
+    port: 1566
+    sources: '{{ mercury_fix_profile.sources }}'
+    client_comp_id: MERCMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 24714
+    ip: '{{ private_ip_address }}'
+    port: 1569
+    sources: '{{ rockhop_fix_profile.sources }}'
+    client_comp_id: ROCKMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 29459
+    ip: '{{ private_ip_address }}'
+    port: 1572
+    sources: '{{ genesis_fix_profile.sources }}'
+    client_comp_id: GENSMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 30347
+    ip: '{{ private_ip_address }}'
+    port: 1575
+    sources: '{{ cephalod_fix_profile.sources }}'
+    client_comp_id: CEPHMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 30453
+    ip: '{{ private_ip_address }}'
+    port: 1578
+    sources: '{{ modulus_fix_profile.sources }}'
+    client_comp_id: MODUMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 9647
+    ip: '{{ private_ip_address }}'
+    port: 1581
+    sources: '{{ akuna2_fix_profile.sources }}'
+    client_comp_id: AKU2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5468
+    ip: '{{ private_ip_address }}'
+    port: 1395
+    sources: '{{ omniex3oe_fix_profile.sources }}'
+    client_comp_id: OMNI2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 9486
+    ip: '{{ private_ip_address }}'
+    port: 1524
+    sources: '{{ abcarbitrage_fix_profile.sources }}'
+    client_comp_id: ABCAMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 9918
+    ip: '{{ private_ip_address }}'
+    port: 1526
+    sources: '{{ nyfix_fix_profile.sources }}'
+    client_comp_id: NYFXMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 4320
+    ip: '{{ private_ip_address }}'
+    port: 1412
+    sources: '{{ dcsandbox_fix_profile.sources }}'
+    client_comp_id: DCTSTMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 6455
+    ip: '{{ private_ip_address }}'
+    port: 1475
+    sources: '{{ lonk_fix_profile.sources }}'
+    client_comp_id: LONKMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1234
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAINMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 15327
+    ip: '{{ private_ip_address }}'
+    port: 1545
+    sources: '{{ eventus_fix_profile.sources }}'
+    client_comp_id: EVNTMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5468
+    ip: '{{ private_ip_address }}'
+    port: 1548
+    sources: '{{ omniex_fix_profile.sources }}'
+    client_comp_id: OMNIMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5468
+    ip: '{{ private_ip_address }}'
+    port: 1551
+    sources: '{{ omniex_fix_profile.sources }}'
+    client_comp_id: OMN2MKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: bbg-marketdata
+    accountnum: 9350
+    ip: localhost
+    port: 8228
+    sources: ["127.0.0.1"]
+    client_comp_id: BBGBETA
+    server_comp_id: UJHABETA
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 24430
+    ip: '{{ private_ip_address }}'
+    port: 1610
+    sources: '{{ pwan_fix_profile.sources }}'
+    client_comp_id: PWANMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 53858
+    ip: '{{ private_ip_address }}'
+    port: 1612
+    sources: '{{ lmax_fix_profile.sources }}'
+    client_comp_id: LMAXMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 54091
+    ip: '{{ private_ip_address }}'
+    port: 1614
+    sources: '{{ ston_fix_profile.sources }}'
+    client_comp_id: STONMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 56865
+    ip: '{{ private_ip_address }}'
+    port: 1616
+    sources: '{{ futu_fix_profile.sources }}'
+    client_comp_id: FUTUMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 58681
+    ip: '{{ private_ip_address }}'
+    port: 1618
+    sources: '{{ brbl_fix_profile.sources }}'
+    client_comp_id: BRBLMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 38657
+    ip: '{{ private_ip_address }}'
+    port: 1626
+    sources: '{{ step_fix_profile.sources }}'
+    client_comp_id: STEPMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 64990
+    ip: '{{ private_ip_address }}'
+    port: 1628
+    sources: '{{ bsky_fix_profile.sources }}'
+    client_comp_id: BSKYMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 18982
+    ip: '{{ private_ip_address }}'
+    port: 1659
+    sources: '{{ apif_fix_profile.sources }}'
+    client_comp_id: APIFMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 642204
+    ip: '{{ private_ip_address }}'
+    port: 1662
+    sources: '{{ socg_fix_profile.sources }}'
+    client_comp_id: SOCGMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 651504
+    ip: '{{ private_ip_address }}'
+    port: 1675
+    sources: '{{ nick_fix_profile.sources }}'
+    client_comp_id: NICKMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 657084
+    ip: '{{ private_ip_address }}'
+    port: 1683
+    sources: '{{ katf_fix_profile.sources }}'
+    client_comp_id: KATFMKTUAT
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 663709
+    ip: '{{ private_ip_address }}'
+    port: 1687
+    sources: '{{ ericproud_fix_profile.sources }}'
+    client_comp_id: ERICMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 663709
+    ip: '{{ private_ip_address }}'
+    port: 1688
+    sources: '{{ ericproud_fix_profile.sources }}'
+    client_comp_id: ERICMKTUAT002
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 53858
+    ip: '{{ private_ip_address }}'
+    port: 1690
+    sources: '{{ lmax_fix_profile.sources }}'
+    client_comp_id: LMAXMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1184351
+    ip: '{{ private_ip_address }}'
+    port: 1692
+    sources: '{{ cryppro_fix_profile.sources }}'
+    client_comp_id: CRYPMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1184351
+    ip: '{{ private_ip_address }}'
+    port: 1691
+    sources: '{{ cryppro_fix_profile.sources }}'
+    client_comp_id: CRYPORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1693
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLEMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 5795
+    ip: '{{ private_ip_address }}'
+    port: 1698
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1446403
+    ip: '{{ private_ip_address }}'
+    port: 1715
+    sources: '{{ ashish_fix_profile.sources }}'
+    client_comp_id: ASHIORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5795
+    ip: '{{ private_ip_address }}'
+    port: 1697
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1376206
+    ip: '{{ private_ip_address }}'
+    port: 1700
+    sources: '{{ mdbu_fix_profile.sources }}'
+    client_comp_id: MDBUORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1376206
+    ip: '{{ private_ip_address }}'
+    port: 1701
+    sources: '{{ mdbu_fix_profile.sources }}'
+    client_comp_id: MDBUMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1699
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLEORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1260989
+    ip: '{{ private_ip_address }}'
+    port: 1704
+    sources: '{{ pblo_fix_profile.sources }}'
+    client_comp_id: PBLOORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1260989
+    ip: '{{ private_ip_address }}'
+    port: 1705
+    sources: '{{ pblo_fix_profile.sources }}'
+    client_comp_id: PBLOMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1399128
+    ip: '{{ private_ip_address }}'
+    port: 1706
+    sources: '{{ smth_fix_profile.sources }}'
+    client_comp_id: SMTHORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1399128
+    ip: '{{ private_ip_address }}'
+    port: 1707
+    sources: '{{ smth_fix_profile.sources }}'
+    client_comp_id: SMTHMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1448240
+    ip: '{{ private_ip_address }}'
+    port: 1708
+    sources: '{{ dens_fix_profile.sources }}'
+    client_comp_id: DENSORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1448240
+    ip: '{{ private_ip_address }}'
+    port: 1709
+    sources: '{{ dens_fix_profile.sources }}'
+    client_comp_id: DENSMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+
+  - type: order
+    accountnum: 1376910
+    ip: '{{ private_ip_address }}'
+    port: 1702
+    sources: '{{ ahoo_fix_profile.sources }}'
+    client_comp_id: AHOOORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1376910
+    ip: '{{ private_ip_address }}'
+    port: 1703
+    sources: '{{ ahoo_fix_profile.sources }}'
+    client_comp_id: AHOOMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 2923
+    ip: '{{ private_ip_address }}'
+    port: 1264
+    sources: '{{ janestreet_fix_profile.sources }}'
+    client_comp_id: JANEDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 2923
+    ip: '{{ private_ip_address }}'
+    port: 1263
+    sources: '{{ janestreet_fix_profile.sources }}'
+    client_comp_id: JANEORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 4400
+    ip: '{{ private_ip_address }}'
+    port: 1244
+    sources: '{{ oanda_fix_profile.sources }}'
+    client_comp_id: ONDAORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1332
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAN2DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1331
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAN2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5763
+    ip: '{{ private_ip_address }}'
+    port: 1418
+    sources: '{{ etale_fix_profile.sources }}'
+    client_comp_id: ETALORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6151
+    ip: '{{ private_ip_address }}'
+    port: 1444
+    sources: '{{ fxt1_fix_profile.sources }}'
+    client_comp_id: FXT1ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 40593
+    ip: '{{ private_ip_address }}'
+    port: 1597
+    sources: '{{ jstc_fix_profile.sources }}'
+    client_comp_id: JSTCORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 40794
+    ip: '{{ private_ip_address }}'
+    port: 1599
+    sources: '{{ qtbt_fix_profile.sources }}'
+    client_comp_id: QTBTORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 44735
+    ip: '{{ private_ip_address }}'
+    port: 1601
+    sources: '{{ tchy_fix_profile.sources }}'
+    client_comp_id: TCHYORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 48837
+    ip: '{{ private_ip_address }}'
+    port: 1605
+    sources: '{{ efer_fix_profile.sources }}'
+    client_comp_id: EFERORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 48837
+    ip: '{{ private_ip_address }}'
+    port: 1607
+    sources: '{{ efer_fix_profile.sources }}'
+    client_comp_id: EFERDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 44398
+    ip: '{{ private_ip_address }}'
+    port: 1603
+    sources: '{{ lupo_fix_profile.sources }}'
+    client_comp_id: LUPOORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 60953
+    ip: '{{ private_ip_address }}'
+    port: 1619
+    sources: '{{ prax_fix_profile.sources }}'
+    client_comp_id: PRAXORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1621
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLEORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 51416
+    ip: '{{ private_ip_address }}'
+    port: 1623
+    sources: '{{ kyle_fix_profile.sources }}'
+    client_comp_id: KYLEDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1448240
+    ip: '{{ private_ip_address }}'
+    port: 1710
+    sources: '{{ dens_fix_profile.sources }}'
+    client_comp_id: DENSDRPUAT001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1399128
+    ip: '{{ private_ip_address }}'
+    port: 1711
+    sources: '{{ smth_fix_profile.sources }}'
+    client_comp_id: SMTHDRPUAT001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 75819
+    ip: '{{ private_ip_address }}'
+    port: 1640
+    sources: '{{ prognos_fix_profile.sources }}'
+    client_comp_id: PGNSORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 75819
+    ip: '{{ private_ip_address }}'
+    port: 1642
+    sources: '{{ prognos_fix_profile.sources }}'
+    client_comp_id: PGNSDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 62176
+    ip: '{{ private_ip_address }}'
+    port: 1643
+    sources: '{{ mbit_fix_profile.sources }}'
+    client_comp_id: MBITORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 62176
+    ip: '{{ private_ip_address }}'
+    port: 1645
+    sources: '{{ mbit_fix_profile.sources }}'
+    client_comp_id: MBITDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 452
+    ip: '{{ private_ip_address }}'
+    port: 1242
+    sources: '{{ jump_fix_profile.sources }}'
+    client_comp_id: JUMPDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 452
+    ip: '{{ private_ip_address }}'
+    port: 1241
+    sources: '{{ jump_fix_profile.sources }}'
+    client_comp_id: JUMPORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 25
+    ip: '{{ private_ip_address }}'
+    port: 1276
+    sources: '{{ sig_fix_profile.sources }}'
+    client_comp_id: SIG1DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 25
+    ip: '{{ private_ip_address }}'
+    port: 1275
+    sources: '{{ sig_fix_profile.sources }}'
+    client_comp_id: SIG1ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 25
+    ip: '{{ private_ip_address }}'
+    port: 1277
+    sources: '{{ sig_fix_profile.sources }}'
+    client_comp_id: SIG1OR2UAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6072
+    ip: '{{ private_ip_address }}'
+    port: 1436
+    sources: '{{ broadway_fix_profile.sources }}'
+    client_comp_id: BWAYORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 6072
+    ip: '{{ private_ip_address }}'
+    port: 1437
+    sources: '{{ broadway_fix_profile.sources }}'
+    client_comp_id: BWAYDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6073
+    ip: '{{ private_ip_address }}'
+    port: 1439
+    sources: '{{ broadway_fix_profile.sources }}'
+    client_comp_id: BWY1ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 6073
+    ip: '{{ private_ip_address }}'
+    port: 1440
+    sources: '{{ broadway_fix_profile.sources }}'
+    client_comp_id: BWAY1DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6152
+    ip: '{{ private_ip_address }}'
+    port: 1445
+    sources: '{{ frontier_fix_profile.sources }}'
+    client_comp_id: FXT2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 7378
+    ip: '{{ private_ip_address }}'
+    port: 1505
+    sources: '{{ frontier_fix_profile.sources }}'
+    client_comp_id: FRNTORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 7378
+    ip: '{{ private_ip_address }}'
+    port: 1507
+    sources: '{{ frontier_fix_profile.sources }}'
+    client_comp_id: FRNTDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6211
+    ip: '{{ private_ip_address }}'
+    port: 1456
+    sources: '{{ matrixex_fix_profile.sources }}'
+    client_comp_id: MXEXORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6501
+    ip: '{{ private_ip_address }}'
+    port: 1486
+    sources: '{{ subspace_fix_profile.sources }}'
+    client_comp_id: SUBCORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 6501
+    ip: '{{ private_ip_address }}'
+    port: 1488
+    sources: '{{ subspace_fix_profile.sources }}'
+    client_comp_id: SUBCDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5612
+    ip: '{{ private_ip_address }}'
+    port: 1521
+    sources: '{{ smazor_fix_profile.sources }}'
+    client_comp_id: SMAZORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 16012
+    ip: '{{ private_ip_address }}'
+    port: 1553
+    sources: '{{ jump2_fix_profile.sources }}'
+    client_comp_id: JMP2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 16012
+    ip: '{{ private_ip_address }}'
+    port: 1555
+    sources: '{{ jump2_fix_profile.sources }}'
+    client_comp_id: JMP2DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 27623
+    ip: '{{ private_ip_address }}'
+    port: 1583
+    sources: '{{ ddzi_fix_profile.sources }}'
+    client_comp_id: DDZIORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 27623
+    ip: '{{ private_ip_address }}'
+    port: 1585
+    sources: '{{ ddzi_fix_profile.sources }}'
+    client_comp_id: DDZIDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 32353
+    ip: '{{ private_ip_address }}'
+    port: 1587
+    sources: '{{ snap_fix_profile.sources }}'
+    client_comp_id: SNAPORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 32363
+    ip: '{{ private_ip_address }}'
+    port: 1590
+    sources: '{{ sprg_fix_profile.sources }}'
+    client_comp_id: SPRGORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 32363
+    ip: '{{ private_ip_address }}'
+    port: 1592
+    sources: '{{ sprg_fix_profile.sources }}'
+    client_comp_id: SPRGDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 32830
+    ip: '{{ private_ip_address }}'
+    port: 1593
+    sources: '{{ mcgl_fix_profile.sources }}'
+    client_comp_id: MCGLORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 33997
+    ip: '{{ private_ip_address }}'
+    port: 1595
+    sources: '{{ bbox_fix_profile.sources }}'
+    client_comp_id: BBOXORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 68351
+    ip: '{{ private_ip_address }}'
+    port: 1630
+    sources: '{{ qntf_fix_profile.sources }}'
+    client_comp_id: QNTFORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 69189
+    ip: '{{ private_ip_address }}'
+    port: 1632
+    sources: '{{ tsim_fix_profile.sources }}'
+    client_comp_id: TSIMORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 69189
+    ip: '{{ private_ip_address }}'
+    port: 1634
+    sources: '{{ tsim_fix_profile.sources }}'
+    client_comp_id: TSIMDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 648689
+    ip: '{{ private_ip_address }}'
+    port: 1664
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 648689
+    ip: '{{ private_ip_address }}'
+    port: 1673
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 651819
+    ip: '{{ private_ip_address }}'
+    port: 1667
+    sources: '{{ murano_fix_profile.sources }}'
+    client_comp_id: MRNOORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 651819
+    ip: '{{ private_ip_address }}'
+    port: 1669
+    sources: '{{ murano_fix_profile.sources }}'
+    client_comp_id: MRNODRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 648689
+    ip: '{{ private_ip_address }}'
+    port: 1670
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 648689
+    ip: '{{ private_ip_address }}'
+    port: 1672
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSDRPUAT001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 654025
+    ip: '{{ private_ip_address }}'
+    port: 1678
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSORDUAT002
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 654025
+    ip: '{{ private_ip_address }}'
+    port: 1679
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSORDUAT003
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 654029
+    ip: '{{ private_ip_address }}'
+    port: 1680
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSORDUAT004
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 654029
+    ip: '{{ private_ip_address }}'
+    port: 1681
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSORDUAT005
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 2919
+    ip: '{{ private_ip_address }}'
+    port: 1260
+    sources: '{{ virtu_fix_profile.sources }}'
+    client_comp_id: VRTUORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 2919
+    ip: '{{ private_ip_address }}'
+    port: 1261
+    sources: '{{ virtu_fix_profile.sources }}'
+    client_comp_id: VRTUDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 2885
+    ip: '{{ private_ip_address }}'
+    port: 1269
+    sources: '{{ tower_fix_profile.sources }}'
+    client_comp_id: TWRCORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 2885
+    ip: '{{ private_ip_address }}'
+    port: 1270
+    sources: '{{ tower_fix_profile.sources }}'
+    client_comp_id: TWRCDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 4973
+    ip: '{{ private_ip_address }}'
+    port: 1336
+    sources: '{{ tower_fix_profile.sources }}'
+    client_comp_id: TWR2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 4973
+    ip: '{{ private_ip_address }}'
+    port: 1337
+    sources: '{{ tower_fix_profile.sources }}'
+    client_comp_id: TWR2DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5795
+    ip: '{{ private_ip_address }}'
+    port: 1430
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 5795
+    ip: '{{ private_ip_address }}'
+    port: 1431
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6629
+    ip: '{{ private_ip_address }}'
+    port: 1468
+    sources: '{{ rbc_fix_profile.sources }}'
+    client_comp_id: RBCCORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 6629
+    ip: '{{ private_ip_address }}'
+    port: 1470
+    sources: '{{ rbc_fix_profile.sources }}'
+    client_comp_id: RBCCDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5557
+    ip: '{{ private_ip_address }}'
+    port: 1406
+    sources: '{{ drwtrading_fix_profile.sources }}'
+    client_comp_id: CBLDORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 5557
+    ip: '{{ private_ip_address }}'
+    port: 1408
+    sources: '{{ drwtrading_fix_profile.sources }}'
+    client_comp_id: CBLDDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5557
+    ip: '{{ private_ip_address }}'
+    port: 1409
+    sources: '{{ drwtrading_fix_profile.sources }}'
+    client_comp_id: CBL2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 5557
+    ip: '{{ private_ip_address }}'
+    port: 1411
+    sources: '{{ drwtrading_fix_profile.sources }}'
+    client_comp_id: CBL2DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6629
+    ip: '{{ private_ip_address }}'
+    port: 1511
+    sources: '{{ rbc_fix_profile.sources }}'
+    client_comp_id: RBC2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6629
+    ip: '{{ private_ip_address }}'
+    port: 1512
+    sources: '{{ rbc_fix_profile.sources }}'
+    client_comp_id: RBC3ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 10004
+    ip: '{{ private_ip_address }}'
+    port: 1528
+    sources: '{{ roqtrading_fix_profile.sources }}'
+    client_comp_id: ROQTORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 10004
+    ip: '{{ private_ip_address }}'
+    port: 1530
+    sources: '{{ roqtrading_fix_profile.sources }}'
+    client_comp_id: ROQTDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 12504
+    ip: '{{ private_ip_address }}'
+    port: 1535
+    sources: '{{ holl_fix_profile.sources }}'
+    client_comp_id: HOLLORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 12504
+    ip: '{{ private_ip_address }}'
+    port: 1537
+    sources: '{{ holl_fix_profile.sources }}'
+    client_comp_id: HOLLDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 14261
+    ip: '{{ private_ip_address }}'
+    port: 1538
+    sources: '{{ algotrader_fix_profile.sources }}'
+    client_comp_id: ALGOORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 14261
+    ip: '{{ private_ip_address }}'
+    port: 1540
+    sources: '{{ algotrader_fix_profile.sources }}'
+    client_comp_id: ALGODRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 2200
+    ip: '{{ private_ip_address }}'
+    port: 1253
+    sources: '{{ hudson_fix_profile.sources }}'
+    client_comp_id: HUDTRORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 2200
+    ip: '{{ private_ip_address }}'
+    port: 1255
+    sources: '{{ hudson_fix_profile.sources }}'
+    client_comp_id: HUDTRDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 914
+    ip: '{{ private_ip_address }}'
+    port: 1556
+    sources: '{{ endiansoft_fix_profile.sources }}'
+    client_comp_id: ENSFORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 914
+    ip: '{{ private_ip_address }}'
+    port: 1558
+    sources: '{{ endiansoft_fix_profile.sources }}'
+    client_comp_id: ENSFDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 19715
+    ip: '{{ private_ip_address }}'
+    port: 1561
+    sources: '{{ pattern_research_fix_profile.sources }}'
+    client_comp_id: PTRNDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 20543
+    ip: '{{ private_ip_address }}'
+    port: 1565
+    sources: '{{ mercury_fix_profile.sources }}'
+    client_comp_id: MERCORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 20543
+    ip: '{{ private_ip_address }}'
+    port: 1567
+    sources: '{{ mercury_fix_profile.sources }}'
+    client_comp_id: MERCDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 24714
+    ip: '{{ private_ip_address }}'
+    port: 1568
+    sources: '{{ rockhop_fix_profile.sources }}'
+    client_comp_id: ROCKORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 24714
+    ip: '{{ private_ip_address }}'
+    port: 1570
+    sources: '{{ rockhop_fix_profile.sources }}'
+    client_comp_id: ROCKDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 29459
+    ip: '{{ private_ip_address }}'
+    port: 1571
+    sources: '{{ genesis_fix_profile.sources }}'
+    client_comp_id: GENSORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 29459
+    ip: '{{ private_ip_address }}'
+    port: 1573
+    sources: '{{ genesis_fix_profile.sources }}'
+    client_comp_id: GENSDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 30347
+    ip: '{{ private_ip_address }}'
+    port: 1574
+    sources: '{{ cephalod_fix_profile.sources }}'
+    client_comp_id: CEPHORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 30347
+    ip: '{{ private_ip_address }}'
+    port: 1576
+    sources: '{{ cephalod_fix_profile.sources }}'
+    client_comp_id: CEPHDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 30453
+    ip: '{{ private_ip_address }}'
+    port: 1577
+    sources: '{{ modulus_fix_profile.sources }}'
+    client_comp_id: MODUORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 30453
+    ip: '{{ private_ip_address }}'
+    port: 1579
+    sources: '{{ modulus_fix_profile.sources }}'
+    client_comp_id: MODUDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 9647
+    ip: '{{ private_ip_address }}'
+    port: 1580
+    sources: '{{ akuna2_fix_profile.sources }}'
+    client_comp_id: AKU2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 9647
+    ip: '{{ private_ip_address }}'
+    port: 1582
+    sources: '{{ akuna2_fix_profile.sources }}'
+    client_comp_id: AKU2DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 9486
+    ip: '{{ private_ip_address }}'
+    port: 1523
+    sources: '{{ abcarbitrage_fix_profile.sources }}'
+    client_comp_id: ABCAORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6368
+    ip: '{{ private_ip_address }}'
+    port: 1501
+    sources: '{{ jryan_fix_profile.sources }}'
+    client_comp_id: JHRNORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6368
+    ip: '{{ private_ip_address }}'
+    port: 1502
+    sources: '{{ jryan_fix_profile.sources }}'
+    client_comp_id: JHR1ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6368
+    ip: '{{ private_ip_address }}'
+    port: 1503
+    sources: '{{ jryan_fix_profile.sources }}'
+    client_comp_id: JHR2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6368
+    ip: '{{ private_ip_address }}'
+    port: 1504
+    sources: '{{ jryan_fix_profile.sources }}'
+    client_comp_id: JHR3ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 4320
+    ip: '{{ private_ip_address }}'
+    port: 1413
+    sources: '{{ dcsandbox_fix_profile.sources }}'
+    client_comp_id: DCTSTDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 4320
+    ip: '{{ private_ip_address }}'
+    port: 1414
+    sources: '{{ dcsandbox_fix_profile.sources }}'
+    client_comp_id: DCTSTORDUAT
+    server_comp_id: GEMINIORDUAT
+    suppress_mm_ioi: 'true'
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 6455
+    ip: '{{ private_ip_address }}'
+    port: 1474
+    sources: '{{ lonk_fix_profile.sources }}'
+    client_comp_id: LONKORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 6455
+    ip: '{{ private_ip_address }}'
+    port: 1476
+    sources: '{{ lonk_fix_profile.sources }}'
+    client_comp_id: LONKDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1233
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAINORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 4085
+    ip: '{{ private_ip_address }}'
+    port: 1235
+    sources: '{{ gain_fix_profile.sources }}'
+    client_comp_id: GAINDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 10876
+    ip: '{{ private_ip_address }}'
+    port: 1531
+    sources: '{{ toraclear_fix_profile.sources }}'
+    client_comp_id: TORCORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 15327
+    ip: '{{ private_ip_address }}'
+    port: 1544
+    sources: '{{ eventus_fix_profile.sources }}'
+    client_comp_id: EVNTORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 15327
+    ip: '{{ private_ip_address }}'
+    port: 1546
+    sources: '{{ eventus_fix_profile.sources }}'
+    client_comp_id: EVNTDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5468
+    ip: '{{ private_ip_address }}'
+    port: 1547
+    sources: '{{ omniex_fix_profile.sources }}'
+    client_comp_id: OMNIORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 5468
+    ip: '{{ private_ip_address }}'
+    port: 1549
+    sources: '{{ omniex_fix_profile.sources }}'
+    client_comp_id: OMNIDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 5468
+    ip: '{{ private_ip_address }}'
+    port: 1550
+    sources: '{{ omniex_fix_profile.sources }}'
+    client_comp_id: OMN2ORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 5468
+    ip: '{{ private_ip_address }}'
+    port: 1552
+    sources: '{{ omniex_fix_profile.sources }}'
+    client_comp_id: OMN2DRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 24430
+    ip: '{{ private_ip_address }}'
+    port: 1609
+    sources: '{{ pwan_fix_profile.sources }}'
+    client_comp_id: PWANORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 53858
+    ip: '{{ private_ip_address }}'
+    port: 1611
+    sources: '{{ lmax_fix_profile.sources }}'
+    client_comp_id: LMAXORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 54091
+    ip: '{{ private_ip_address }}'
+    port: 1613
+    sources: '{{ ston_fix_profile.sources }}'
+    client_comp_id: STONORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 56865
+    ip: '{{ private_ip_address }}'
+    port: 1615
+    sources: '{{ futu_fix_profile.sources }}'
+    client_comp_id: FUTUORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 58681
+    ip: '{{ private_ip_address }}'
+    port: 1617
+    sources: '{{ brbl_fix_profile.sources }}'
+    client_comp_id: BRBLORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 38657
+    ip: '{{ private_ip_address }}'
+    port: 1625
+    sources: '{{ step_fix_profile.sources }}'
+    client_comp_id: STEPORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 38657
+    ip: '{{ private_ip_address }}'
+    port: 1646
+    sources: '{{ step_fix_profile.sources }}'
+    client_comp_id: STEPDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 64990
+    ip: '{{ private_ip_address }}'
+    port: 1627
+    sources: '{{ bsky_fix_profile.sources }}'
+    client_comp_id: BSKYORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 64990
+    ip: '{{ private_ip_address }}'
+    port: 1629
+    sources: '{{ bsky_fix_profile.sources }}'
+    client_comp_id: BSKYDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 18982
+    ip: '{{ private_ip_address }}'
+    port: 1658
+    sources: '{{ apif_fix_profile.sources }}'
+    client_comp_id: APIFORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 18982
+    ip: '{{ private_ip_address }}'
+    port: 1660
+    sources: '{{ apif_fix_profile.sources }}'
+    client_comp_id: APIFDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 642204
+    ip: '{{ private_ip_address }}'
+    port: 1661
+    sources: '{{ socg_fix_profile.sources }}'
+    client_comp_id: SOCGORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 642204
+    ip: '{{ private_ip_address }}'
+    port: 1663
+    sources: '{{ socg_fix_profile.sources }}'
+    client_comp_id: SOCGDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 651504
+    ip: '{{ private_ip_address }}'
+    port: 1674
+    sources: '{{ nick_fix_profile.sources }}'
+    client_comp_id: NICKORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 651504
+    ip: '{{ private_ip_address }}'
+    port: 1676
+    sources: '{{ nick_fix_profile.sources }}'
+    client_comp_id: NICKDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 657084
+    ip: '{{ private_ip_address }}'
+    port: 1682
+    sources: '{{ katf_fix_profile.sources }}'
+    client_comp_id: KATFORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 67369
+    ip: '{{ private_ip_address }}'
+    port: 1636
+    sources: '{{ abz_fix_profile.sources }}'
+    client_comp_id: ABZORDUAT
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 67369
+    ip: '{{ private_ip_address }}'
+    port: 1638
+    sources: '{{ abz_fix_profile.sources }}'
+    client_comp_id: ABZDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 657084
+    ip: '{{ private_ip_address }}'
+    port: 1684
+    sources: '{{ katf_fix_profile.sources }}'
+    client_comp_id: KATFDRPUAT
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 53858
+    ip: '{{ private_ip_address }}'
+    port: 1689
+    sources: '{{ lmax_fix_profile.sources }}'
+    client_comp_id: LMAXORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1449425
+    ip: '{{ private_ip_address }}'
+    port: 1714
+    sources: '{{ jst2_fix_profile.sources }}'
+    client_comp_id: JST2MKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1449425
+    ip: '{{ private_ip_address }}'
+    port: 1713
+    sources: '{{ jst2_fix_profile.sources }}'
+    client_comp_id: JST2ORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 5795
+    ip: '{{ private_ip_address }}'
+    port: 1717
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 19715
+    ip: '{{ private_ip_address }}'
+    port: 1718
+    sources: '{{ pattern_research_fix_profile.sources }}'
+    client_comp_id: PTRNDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 19715
+    ip: '{{ private_ip_address }}'
+    port: 1719
+    sources: '{{ pattern_research_fix_profile.sources }}'
+    client_comp_id: PTRNORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1449746
+    ip: '{{ private_ip_address }}'
+    port: 1721
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: PATKMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1449746
+    ip: '{{ private_ip_address }}'
+    port: 1720
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: PATKORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1449746
+    ip: '{{ private_ip_address }}'
+    port: 1722
+    sources: '{{ gemini_sandbox_profile.sources }}'
+    client_comp_id: PATKDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1450376
+    ip: '{{ private_ip_address }}'
+    port: 1723
+    sources: '{{ tchy_fix_profile.sources }}'
+    client_comp_id: TCHYMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1450376
+    ip: '{{ private_ip_address }}'
+    port: 1724
+    sources: '{{ tchy_fix_profile.sources }}'
+    client_comp_id: TCHYORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1450963
+    ip: '{{ private_ip_address }}'
+    port: 1725
+    sources: '{{ raun_fix_profile.sources }}'
+    client_comp_id: RAUNMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1450963
+    ip: '{{ private_ip_address }}'
+    port: 1726
+    sources: '{{ raun_fix_profile.sources }}'
+    client_comp_id: RAUNORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1450963
+    ip: '{{ private_ip_address }}'
+    port: 1727
+    sources: '{{ raun_fix_profile.sources }}'
+    client_comp_id: RAUNDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1452632
+    ip: '{{ private_ip_address }}'
+    port: 1729
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1452632
+    ip: '{{ private_ip_address }}'
+    port: 1728
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1452632
+    ip: '{{ private_ip_address }}'
+    port: 1730
+    sources: '{{ pulsar_fix_profile.sources }}'
+    client_comp_id: PULSDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1454352
+    ip: '{{ private_ip_address }}'
+    port: 1732
+    sources: '{{ lonk_fix_profile.sources }}'
+    client_comp_id: LONKMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1454352
+    ip: '{{ private_ip_address }}'
+    port: 1731
+    sources: '{{ lonk_fix_profile.sources }}'
+    client_comp_id: LONKORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1454352
+    ip: '{{ private_ip_address }}'
+    port: 1733
+    sources: '{{ lonk_fix_profile.sources }}'
+    client_comp_id: LONKDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1449082
+    ip: '{{ private_ip_address }}'
+    port: 1734
+    sources: '{{ drrn_fix_profile.sources }}'
+    client_comp_id: DRRNMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1449082
+    ip: '{{ private_ip_address }}'
+    port: 1735
+    sources: '{{ drrn_fix_profile.sources }}'
+    client_comp_id: DRRNORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1449082
+    ip: '{{ private_ip_address }}'
+    port: 1736
+    sources: '{{ drrn_fix_profile.sources }}'
+    client_comp_id: DRRNDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1454897
+    ip: '{{ private_ip_address }}'
+    port: 1737
+    sources: '{{ jstcapital_fix_profile.sources }}'
+    client_comp_id: JSTCMKTUATP001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1454897
+    ip: '{{ private_ip_address }}'
+    port: 1738
+    sources: '{{ jstcapital_fix_profile.sources }}'
+    client_comp_id: JSTCORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1454897
+    ip: '{{ private_ip_address }}'
+    port: 1739
+    sources: '{{ jstcapital_fix_profile.sources }}'
+    client_comp_id: JSTCDRPUATP001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1455933
+    ip: '{{ private_ip_address }}'
+    port: 1740
+    sources: '{{ velox_fix_profile.sources }}'
+    client_comp_id: VELXORDUATP001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1467234
+    ip: '{{ private_ip_address }}'
+    port: 1741
+    sources: '{{ flowdesk_fix_profile.sources }}'
+    client_comp_id: FLOWMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1467234
+    ip: '{{ private_ip_address }}'
+    port: 1742
+    sources: '{{ flowdesk_fix_profile.sources }}'
+    client_comp_id: FLOWORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1467234
+    ip: '{{ private_ip_address }}'
+    port: 1743
+    sources: '{{ flowdesk_fix_profile.sources }}'
+    client_comp_id: FLOWDRPUAT001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1508847
+    ip: '{{ private_ip_address }}'
+    port: 1744
+    sources: '{{ betterment_fix_profile.sources }}'
+    client_comp_id: BETTMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1508847
+    ip: '{{ private_ip_address }}'
+    port: 1745
+    sources: '{{ betterment_fix_profile.sources }}'
+    client_comp_id: BETTORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1508847
+    ip: '{{ private_ip_address }}'
+    port: 1746
+    sources: '{{ betterment_fix_profile.sources }}'
+    client_comp_id: BETTDRPUAT001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 1509928
+    ip: '{{ private_ip_address }}'
+    port: 1750
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNMKTUAT002
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 1509928
+    ip: '{{ private_ip_address }}'
+    port: 1751
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNORDUAT002
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 1509928
+    ip: '{{ private_ip_address }}'
+    port: 1752
+    sources: '{{ akuna_fix_profile.sources }}'
+    client_comp_id: AKUNDRPUAT002
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: marketdata
+    accountnum: 4407
+    ip: '{{ private_ip_address }}'
+    port: 1753
+    sources: '{{ xbto_fix_profile.sources }}'
+    client_comp_id: XBTOMKTUAT001
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: order
+    accountnum: 4407
+    ip: '{{ private_ip_address }}'
+    port: 1754
+    sources: '{{ xbto_fix_profile.sources }}'
+    client_comp_id: XBTOORDUAT001
+    server_comp_id: GEMINIORDUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+  - type: dropcopy
+    accountnum: 4407
+    ip: '{{ private_ip_address }}'
+    port: 1755
+    sources: '{{ xbto_fix_profile.sources }}'
+    client_comp_id: XBTODRPUAT001
+    server_comp_id: GEMINIDRPUAT
+    fix_servers:
+      A: '{{ fix_nomad_node_A }}'
+      B: '{{ fix_nomad_node_B }}'
+
+fix_marketdata_ip_whitelist: ""
+fix_dropcopy_ip_whitelist: ""
+fix_order_ip_whitelist: ""
+
+trading_interface: "eth0"
+
+nomad_fix_node: A

@@ -1,0 +1,10 @@
+---
+akuna2_fix_profile:
+  client: akuna2
+  ports:
+    - 1580
+    - 1581
+    - 1582
+  sources:
+    - 162.12.218.143
+    - 52.58.180.17

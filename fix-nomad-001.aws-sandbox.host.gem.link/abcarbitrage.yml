@@ -1,0 +1,10 @@
+---
+abcarbitrage_fix_profile:
+  client: abcarbitrage
+  ports:
+    - 1523
+    - 1524
+  sources:
+    - 158.255.111.66/32
+    - 84.233.229.162/32
+    - 185.221.228.0/32

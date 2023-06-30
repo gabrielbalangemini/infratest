@@ -1,0 +1,9 @@
+---
+nyfix_fix_profile:
+  client: nyfix
+  ports:
+    - 1525
+    - 1526
+    - 1527
+  sources:
+    - 65.164.53.45

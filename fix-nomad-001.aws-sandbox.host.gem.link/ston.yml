@@ -1,0 +1,8 @@
+---
+ston_fix_profile:
+  client: ston
+  ports:
+    - 1613
+    - 1614
+  sources:
+    - 79.141.39.74

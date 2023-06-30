@@ -1,0 +1,9 @@
+---
+algotrader_fix_profile:
+  client: algotrader
+  ports:
+    - 1538
+    - 1539
+    - 1540
+  sources:
+    - 95.216.229.67

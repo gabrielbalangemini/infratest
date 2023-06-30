@@ -1,0 +1,8 @@
+---
+ahoo_fix_profile:
+  client: ahoo
+  ports:
+    - 1702
+    - 1703
+  sources:
+    - 155.138.202.120

@@ -1,0 +1,9 @@
+---
+prognos_fix_profile:
+  client: prognos
+  ports:
+    - 1640
+    - 1641
+    - 1642
+  sources:
+    - 38.65.8.2

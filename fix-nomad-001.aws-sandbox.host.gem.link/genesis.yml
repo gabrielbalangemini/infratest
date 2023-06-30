@@ -1,0 +1,10 @@
+---
+genesis_fix_profile:
+  client: genesis
+  ports:
+    - 1571
+    - 1572
+    - 1573
+  sources:
+    - 54.80.62.36
+    - 54.85.247.128
