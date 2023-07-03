@@ -15,7 +15,7 @@ fix_components:
     accountnum: 8043
     ip: '{{ private_ip_address }}'
     port: 1530
-    sources: '{{ nomad_test_profile.sources }}'
+    sources: '{ nomad_test_profile_fix_profile.sources }'
     client_comp_id: NOMADTESTMKTUAT
     server_comp_id: GEMINIMKTUAT
     fix_servers:
@@ -3091,6 +3091,18 @@ fix_components:
     ip: '{ private_ip_address }'
     port: example_port
     sources: '{ nomad_test_profile.sources }'
+    client_comp_id: example_client_comp_id
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{ fix_nomad_node_A }'
+      B: '{ fix_nomad_node_B }'
+
+
+  - type: marketdata
+    accountnum: example_accountnum
+    ip: '{ private_ip_address }'
+    port: example_port
+    sources: '{ nomad_test_profile_fix_profile.sources }'
     client_comp_id: example_client_comp_id
     server_comp_id: GEMINIMKTUAT
     fix_servers:
