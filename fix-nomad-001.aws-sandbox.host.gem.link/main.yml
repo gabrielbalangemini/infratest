@@ -3397,6 +3397,18 @@ fix_components:
       A: '{ fix_nomad_node_A }'
       B: '{ fix_nomad_node_B }'
 
+
+  - type: marketdata
+    accountnum: 4128158
+    ip: '{ private_ip_address }'
+    port: 182842
+    sources: 'xtrd_fix_profile_fix_profile.sources'
+    client_comp_id: 4182481
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{ fix_nomad_node_A }'
+      B: '{ fix_nomad_node_B }'
+
 fix_marketdata_ip_whitelist: ""
 fix_dropcopy_ip_whitelist: ""
 fix_order_ip_whitelist: ""
