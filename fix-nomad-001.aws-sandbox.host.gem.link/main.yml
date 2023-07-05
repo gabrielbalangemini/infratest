@@ -3229,7 +3229,7 @@ fix_components:
       A: '{ fix_nomad_node_A }'
       B: '{ fix_nomad_node_B }'
 
-fix_dropcopy_ip_whitelist: ""
+fix_marketdata_ip_whitelist: ""
 fix_dropcopy_ip_whitelist: ""
 fix_order_ip_whitelist: ""
 
