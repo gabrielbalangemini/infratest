@@ -3205,6 +3205,18 @@ fix_components:
       A: '{ fix_nomad_node_A }'
       B: '{ fix_nomad_node_B }'
 
+
+  - type: marketdata
+    accountnum: TES84182414182481-2
+    ip: '{ private_ip_address }'
+    port: TES84182414182481-2
+    sources: 'TES84182414182481_fix_profile.sources'
+    client_comp_id: TES84182414182481-2
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{ fix_nomad_node_A }'
+      B: '{ fix_nomad_node_B }'
+
 fix_marketdata_ip_whitelist: ""
 fix_dropcopy_ip_whitelist: ""
 fix_order_ip_whitelist: ""
