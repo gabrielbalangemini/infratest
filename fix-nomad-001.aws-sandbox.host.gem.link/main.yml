@@ -3241,6 +3241,18 @@ fix_components:
       A: '{ fix_nomad_node_A }'
       B: '{ fix_nomad_node_B }'
 
+
+  - type: order
+    accountnum: TESGAB18519
+    ip: '{ private_ip_address }'
+    port: TESGAB18519
+    sources: 'TESGAB18519_fix_profile.sources'
+    client_comp_id: TESGAB18519
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{ fix_nomad_node_A }'
+      B: '{ fix_nomad_node_B }'
+
 fix_marketdata_ip_whitelist: ""
 fix_dropcopy_ip_whitelist: ""
 fix_order_ip_whitelist: ""
