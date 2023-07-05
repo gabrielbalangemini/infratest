@@ -1,0 +1,9 @@
+TESGAB7_fix_profile:
+  client: TESGAB7
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
