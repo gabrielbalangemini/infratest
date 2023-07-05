@@ -1,0 +1,9 @@
+TESGAB818_fix_profile:
+  client: TESGAB818
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
