@@ -1,0 +1,9 @@
+TESGAB15_fix_profile:
+  client: TESGAB15
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
