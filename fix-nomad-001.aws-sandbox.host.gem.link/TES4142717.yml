@@ -1,0 +1,9 @@
+TES4142717_fix_profile:
+  client: TES4142717
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
