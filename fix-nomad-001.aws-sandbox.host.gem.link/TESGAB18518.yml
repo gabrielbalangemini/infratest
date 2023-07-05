@@ -1,0 +1,9 @@
+TESGAB18518_fix_profile:
+  client: TESGAB18518
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
