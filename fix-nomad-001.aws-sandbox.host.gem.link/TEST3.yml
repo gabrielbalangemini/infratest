@@ -1,0 +1,9 @@
+TEST3_fix_profile:
+  client: TEST3
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
