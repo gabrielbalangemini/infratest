@@ -1,0 +1,9 @@
+test_client_profile_fix_profile:
+  client: test_client_profile
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
