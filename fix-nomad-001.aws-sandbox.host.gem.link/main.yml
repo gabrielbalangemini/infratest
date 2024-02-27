@@ -3133,6 +3133,18 @@ fix_components:
       A: '{ fix_nomad_node_A }'
       B: '{ fix_nomad_node_B }'
 
+
+  - type: dropcopy
+    accountnum: 1242141
+    ip: '{ private_ip_address }'
+    port: 2769
+    sources: 'fix_client_profile_fix_profile.sources'
+    client_comp_id: SomeSenderCompID
+    server_comp_id: GEMINIMKTUAT
+    fix_servers:
+      A: '{ fix_nomad_node_A }'
+      B: '{ fix_nomad_node_B }'
+
 fix_marketdata_ip_whitelist: ""
 fix_dropcopy_ip_whitelist: ""
 fix_order_ip_whitelist: ""
