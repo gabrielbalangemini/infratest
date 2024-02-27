@@ -1,0 +1,9 @@
+example_profile_fix_profile:
+  client: example_profile
+  ports:
+    - port
+    - port
+    - port
+  sources:
+    - ip
+    - ip
